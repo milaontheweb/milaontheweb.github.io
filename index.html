@@ -7,7 +7,7 @@
 		font-family: "Chalkduster","Chiller", "Helvetica", "Tahoma", sans-serif;
 		font-size: 24px;
 	}
-	header, 
+	header > div, 
 	footer,
 	section {
 		max-width: 800px;
@@ -15,15 +15,23 @@
 		margin-right: auto;
 		text-align: center;
 	}
-	header > img {
+	header {
+		background-image: url('images/background.jpg');
+		background-size: cover;
+		color: white;
+		padding: 30px;
+	}
+	header > div > img {
 		max-width: 150px;
 		width: 100%;
+		border: 5px solid white;
+		border-radius: 36%;
 	}
     section > ul > li {
     	display: inline-block;
     	margin: 10px;
     	padding: 20px;
-    	border: 1px solid lightpink;
+    	border: 1px solid Yellow;
     }
 	</style>
 
@@ -31,14 +39,18 @@
 <body>
 
 	<header>
-		<img src="images/Mila.jpg">
-		<h1>Mila Abadzheva </h1>
-		<p>Female, citizen and writer and reader of the month at Fremont school, born in Russia on November 21, 2007. </p>
+		<div>
+			<img src="images/Mila.jpg">
+			<h1>Mila Abadzheva </h1>
+			<p>Female, citizen and writer and reader of the month at Fremont school, born in Russia on November 21, 2007. </p>
+		</div>
+
 	</header>
 
 	<section>
 		<h1> Where do you want to go???? </h1>
-		<p>Click any button to look at the item. </p>
+		<p>Click any button to look at the item.
+		{The patatap one is a blast!} </p>
 		<ul>
 			<li>
 				<a href="hampsterpicture2.html">A Very Cute Hamster</a>
@@ -52,10 +64,14 @@
 			<li>
 				<a href=http://kids.nationalgeographic.com/>National Greographic</a>
 			</li>
+			<li>
+			    <a href="https://www.google.com/search?q=web+links&amp;espv=2&amp;biw=1536&amp;bih=760&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwji_Yj546bQAhVG6iYKHQzUAqgQ_AUIBigB&dpr=1.25">Picture Links</a>
+			</li>
 		</ul>
 	</section>
 
 	<footer>
+	<p>Anyway, you can see that I'm totally awesome! </p>
 		<p>
 			<a href="#top ">Back to Top</a>
 		</p>
